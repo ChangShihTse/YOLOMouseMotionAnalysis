@@ -30,8 +30,9 @@ mouse-behavior-analysis/
 ├── src/
 │   └── main_process.m   <-- Core MATLAB execution script
 └── README.md
+```
 
-🚀 Usage Guide
+## 🚀 Usage Guide
 Follow these steps to process your tracking datasets:
 
 Prepare Input Data: Export your YOLO object detection results and place the entire labels/ folder into the data/ directory of this repository.
