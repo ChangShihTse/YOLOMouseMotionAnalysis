@@ -1,0 +1,12 @@
+# 忽略所有資料夾下的實際資料與報告
+data/**/*
+results/**/*
+
+# 但保留 .gitkeep 確保資料夾結構不消失
+!**/data/.gitkeep
+!**/results/.gitkeep
+
+# 忽略 MATLAB 產生的暫存檔與日誌
+*.asv
+*.log
+.DS_Store
